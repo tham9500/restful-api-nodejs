@@ -5,7 +5,7 @@ const Product = require('./models/product')
 
 const MONGODB_URI =
   process.env.MONGODB_URI ||
-  'mongodb+srv://tham6524:Kapomb24032541@cluster0.anxan0y.mongodb.net/test'
+  'mongodb+srv://user:password@cluster0.anxan0y.mongodb.net/test'
 const PORT = process.env.PORT || 9000
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true })
