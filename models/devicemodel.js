@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const productSchema = new Schema(
+const deviceSchema = new Schema(
   {
     uuid: String,
     highpressure: String,
@@ -20,6 +20,6 @@ const productSchema = new Schema(
   { timestamps: true, versionKey: false }
 )
 
-const ProductModel = mongoose.model('Product', productSchema)
+const DeviceModel = mongoose.model('Devicedata', deviceSchema)
 
-module.exports = ProductModel
+module.exports = DeviceModel
