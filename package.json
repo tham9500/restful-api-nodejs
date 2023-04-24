@@ -1,7 +1,7 @@
 {
   "name": "restful-api-nodejs",
   "version": "1.0.0",
-  "description": "Example of RESTful API with Node.js + MongoDB",
+  "description": "RESTful API with Node.js + MongoDB",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
